@@ -46,7 +46,15 @@ These are planned upgrades to make the project more advanced:
 4. Use buttons to edit, delete, or complete tasks  
 
 ---
+## 🎥 Project Demo
 
+<video controls width="600">
+  <source src="
+
+https://github.com/user-attachments/assets/dc9f4bdc-0fe1-469e-becb-b682df457ee7" type="video/mp4">
+</video>
+
+---
 ## 🎯 Project Purpose
 This project was created to practice:
 - DOM manipulation  
