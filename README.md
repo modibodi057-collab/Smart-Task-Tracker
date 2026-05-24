@@ -48,10 +48,11 @@ These are planned upgrades to make the project more advanced:
 ---
 ## 🎥 Project Demo
 
-<video controls width="600">
-  <source src="
+<video src="
 
-https://github.com/user-attachments/assets/dc9f4bdc-0fe1-469e-becb-b682df457ee7" type="video/mp4">
+https://github.com/user-attachments/assets/d9a0b686-28f1-425b-93f5-594b2caef6ad
+
+" width="100%" controls align="center">
 </video>
 
 ---
