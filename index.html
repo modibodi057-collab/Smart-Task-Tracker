@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Task Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Smart Task Tracker</h1>
+            <p class="subtitle">Organize your tasks simply and efficiently</p>
+
+            <button id="themeToggle" class="dm-btn">Dark Mode</button>
+        </header>
+
+        <section class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <section class="status">
+            <div>Total: <span id="totalTasks">0</span></div>
+            <div>Completed: <span id="completedTasks">0</span></div>
+        </section>
+
+        <section class="tasklist" id="taskList"></section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

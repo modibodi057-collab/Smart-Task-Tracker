@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 15px;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* BUTTON */
+.dm-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    border: none;
+    background: #2d6cdf;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* INPUT */
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.task-input button {
+    padding: 10px 15px;
+    border: none;
+    background: #2d6cdf;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* STATUS */
+.status {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f0f2f5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* TASKS */
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fafafa;
+    transition: 0.2s;
+}
+
+.task:hover {
+    transform: scale(1.01);
+}
+
+.task span {
+    flex: 1;
+}
+
+.task.done span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* ACTION BUTTONS */
+.task-actions button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-btn { background: #ffc107;color: white; }
+.delete-btn { background: #ff4d4f; color: white; }
+.status-btn { background: #2d6cdf; color: white; }
+
+/* DARK MODE */
+body.dark {
+    background: #121212;
+    color: #fff;
+}
+
+body.dark .container {
+    background: #1e1e1e;
+}
+
+body.dark .status {
+    background: #2a2a2a;
+}
+
+body.dark .task {
+    background: #2a2a2a;
+    border-color: #333;
+}
+
+body.dark .task span {
+    color: #fff;
+}
