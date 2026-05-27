@@ -50,7 +50,7 @@ These are planned upgrades to make the project more advanced:
 
 <video src="
 
-https://github.com/user-attachments/assets/d9a0b686-28f1-425b-93f5-594b2caef6ad
+https://github.com/user-attachments/assets/6a834a76-de9c-4cfb-aa57-6633e064d043
 
 " width="100%" controls align="center">
 </video>
