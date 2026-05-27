@@ -6,6 +6,7 @@ It helps users organize their work by adding, editing, deleting, and completing 
 
 This project was built to practice JavaScript and improve front-end development skills.
 
+
 ---
 
 ## ✨ Features
